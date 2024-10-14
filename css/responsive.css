@@ -1,0 +1,1658 @@
+@media only screen and (max-width:1880px) {
+    .banner-inner .right::before {
+        top: 22%;
+        right: 87%;
+        width: 40%;
+        height: 88px;
+    }
+
+    .box h5 {
+        width: 30px;
+        height: 30px;
+    }
+
+    .ques-inner .right .content-box .text {
+        width: 100%;
+        padding: 50px 38px 100px 120px;
+    }
+
+    :root {
+        --black-color: #323232;
+        --orange-color: #FCB040;
+        --font-family: 'poppins';
+    }
+}
+
+@media only screen and (max-width: 1860px) {
+    .banner-inner .right::before {
+        top: 22%;
+        right: 87%;
+        width: 41%;
+        height: 87px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 1855px) {
+    .banner-inner .left h1 {
+        color: var(--orange, #FCB040);
+        font-family: Lora;
+        font-size: 65px;
+    }
+
+    .banner-inner .right img {
+        padding-top: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 1800px) {
+    .banner-inner .right::before {
+        top: 22%;
+        right: 87%;
+        width: 275px;
+        height: 90px;
+    }
+
+    .banner-inner .right img {
+        padding-top: 80px;
+    }
+
+    .ques-inner .right .content-box .text {
+        width: 100%;
+        padding: 75px 38px 110px 120px;
+    }
+
+    .box h5 {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 1750px) {
+    .banner-inner .right::before {
+        top: 22%;
+        right: 87%;
+        width: 275px;
+        height: 90px;
+    }
+
+    .banner-inner .right img {
+        object-fit: contain;
+    }
+
+    .banner-inner {
+        padding: 0px 0 0px 0;
+    }
+
+    .sign-up {
+        margin-top: -175px;
+    }
+
+    .why-inner {
+        gap: 50px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1670px) {
+    .banner-inner .right::before {
+        top: 23%;
+        right: 87%;
+        width: 265px;
+        height: 88px;
+    }
+
+    .banner-inner .left h1 {
+        color: var(--orange, #FCB040);
+        font-family: Lora;
+        font-size: 62px;
+    }
+
+    .banner-inner .left p {
+        color: var(--black-color);
+        font-size: 16px;
+    }
+
+    .about-inner .right p {
+        font-size: 15px;
+    }
+
+    .about-inner .right::before {
+        width: 17.3%;
+        height: 14.5%;
+    }
+
+    .why-inner .left .customer-supp {
+        gap: 5px;
+    }
+
+    .why-inner .left .customer-supp img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .why-inner .left .customer-supp h4 {
+        font-size: 18px;
+    }
+
+    .box h5 {
+        width: 40px;
+        height: 40px;
+    }
+
+    .ques-inner .right .content-box .text {
+        padding: 60px 38px 120px 120px;
+    }
+
+}
+
+@media only screen and (max-width:1650px) {
+    .sign-up {
+        margin-top: -175px;
+    }
+}
+
+@media only screen and (max-width:1630px) {
+
+    .about-inner .right::before {
+        width: 95px;
+        height: 90px;
+    }
+
+    .customer-support {
+        padding: 0px 0 30px 0;
+    }
+
+    .why-inner .left .customer-supp img {
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+    }
+
+    .why-inner .left .customer-supp h4 {
+        font-size: 15px;
+    }
+
+    .why-inner .left .customer-supp p {
+        padding: 0;
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width:1600px) {
+    .banner-inner .right::before {
+        top: 24%;
+        right: 87%;
+        width: 280px;
+        height: 92px;
+    }
+
+    .sign-up {
+        margin-top: -1675x;
+    }
+
+}
+
+@media only screen and (max-width:1590px) {
+    .banner-inner .left h1 {
+        font-size: 57px;
+        line-height: 60px;
+        padding-bottom: 10px;
+    }
+
+    .banner-inner .right::before {
+        top: 24%;
+        right: 87%;
+        width: 287px;
+        height: 97px;
+    }
+
+    .banner-inner .right img {
+        height: 700px;
+        object-fit: contain;
+    }
+
+    .sign-up {
+        margin-top: -190px;
+    }
+}
+
+@media only screen and (max-width:1555px) {
+    .banner-inner .right::before {
+        top: 25%;
+        height: 82px;
+        width: 245px;
+    }
+
+    .about-inner {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .about-inner .left img {
+        width: 450px;
+    }
+
+    .about-inner .right {
+        width: 65%;
+    }
+
+    .why-inner {
+        gap: 70px;
+    }
+
+    .text h2 {
+        font-size: 35px;
+    }
+
+    .why-inner .right img {
+        width: 525px;
+    }
+
+    .box h5 {
+        width: 48px;
+        height: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 1500px) {
+
+    .banner-inner .right img {
+        height: 680px;
+    }
+
+    .banner-inner {
+        padding: 0;
+    }
+
+    .banner-inner .right::before {
+        top: 22%;
+    }
+
+    .banner-inner .left h3 {
+        padding-bottom: 7px;
+    }
+
+    .banner-inner .left h1 {
+        padding-bottom: 10px;
+    }
+
+    .banner-inner .left p {
+        font-size: 15px;
+    }
+
+    .banner-inner .right img {
+        padding-top: 85px;
+    }
+
+    .why-inner {
+        gap: 50px;
+    }
+
+    .why-inner .right img {
+        width: 500px
+    }
+
+    .why-inner .left p {
+        font-size: 15px;
+    }
+
+    .ques-inner .right .content-box .text {
+        padding: 40px 35px 110px 120px;
+    }
+
+}
+
+@media only screen and (max-width: 1485px) {
+    .why-inner .left .customer-supp h4 {
+        font-size: 15px;
+    }
+
+    .banner-inner .left h1 {
+        line-height: 55px;
+    }
+
+    .banner-inner .right img {
+        height: 640px;
+        object-fit: contain;
+    }
+
+    .sign-up {
+        margin-top: -150px;
+    }
+}
+
+@media only screen and (max-width: 1460px) {
+
+    .banner-inner .left h1 {
+        font-size: 52px;
+    }
+
+    .banner-inner .right::before {
+        top: 22%;
+    }
+
+    .why-inner .left .customer-supp {
+        gap: 5px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+
+    .banner-inner .left p {
+        font-size: 15px;
+    }
+
+    .banner-inner .left h1 {
+        line-height: 58px;
+    }
+
+    .about-inner .right p {
+        font-size: 15px;
+    }
+
+    .why-inner .left p {
+        font-size: 15px;
+    }
+
+    .ques-inner .right .content-box p {
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width:1370px) {
+    .menu ul {
+        gap: 25px;
+    }
+
+    .header-inner .button li a {
+        padding: 5px 15px;
+    }
+
+    .header-inner .button li:last-of-type a {
+        padding: 4px 15px;
+    }
+
+    .banner {
+        padding-bottom: 60px;
+    }
+
+    .sign-up {
+        margin-top: -155px;
+    }
+
+    .sign-inner {
+        padding: 15px 30px;
+    }
+
+    .about-inner {
+        gap: 25px;
+        padding: 45px 0 65px 0;
+    }
+
+    .box h5 {
+        width: 55px;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width:1335px) {
+    .banner-inner .right img {
+        height: 700px;
+        padding-top: 50px;
+        width: 530px;
+    }
+
+    .sign-up {
+        margin-top: -185px;
+    }
+}
+
+
+@media only screen and (max-width:1320px) {
+    .banner-inner .left h3 {
+        font-size: 20px;
+    }
+
+    .banner-inner .left h1 {
+        font-size: 47px;
+    }
+
+    .banner-inner .right img {
+        height: 700px;
+        padding-top: 80px;
+        width: 500px;
+    }
+
+    .about-inner .right h4 {
+        font-size: 16px;
+    }
+
+    .about-inner .right p {
+        font-size: 14px;
+    }
+
+    .why-inner .left h4 {
+        font-size: 16px;
+    }
+
+    .why-inner .left p {
+        font-size: 14px;
+    }
+
+    .why-inner .left .customer-supp h4 {
+        font-size: 14px;
+    }
+
+    .why-inner .left .customer-supp p {
+        padding: 0;
+        font-size: 13px;
+    }
+
+    .ques-inner .left h4 {
+        font-size: 16px;
+    }
+
+    .box {
+        gap: 8px;
+        padding: 20px 15px;
+    }
+
+    .box h5 {
+        font-size: 15px;
+    }
+
+    .box p {
+        font-size: 16px;
+    }
+
+    .ques-inner .right .content-box .text {
+        padding: 25px 35px 55px 120px;
+    }
+
+    .ques-inner .right .content-box h4 {
+        font-size: 16px;
+    }
+
+    .ques-inner .right .content-box p {
+        font-size: 14px;
+    }
+
+    .logoTxt p {
+        font-size: 15px;
+    }
+
+    .company h3 {
+        font-size: 20px;
+    }
+
+    .company ul li {
+        margin-right: 10px;
+    }
+
+    .company ul li a {
+        font-size: 15px;
+    }
+
+    .company ul p {
+        font-size: 15px;
+        margin-right: 10px;
+    }
+
+    .copyright-inner p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:1300px) {
+    .banner-inner .right::before {
+        right: 80%;
+    }
+
+    .about-inner {
+        gap: 45px;
+    }
+
+    .why-inner .right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .why-inner .right img {
+        width: 420px;
+    }
+
+    .text h2 {
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (max-width:1230px) {
+    .about-inner {
+        gap: 60px;
+    }
+
+    .mission p {
+        margin-left: 16px;
+    }
+}
+
+@media only screen and (max-width:1210px) {
+    .container {
+        width: 85%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width:1130px) {
+
+    .banner-inner .left p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .banner-inner .right img {
+        height: 555px;
+        width: 455px;
+    }
+
+    .banner-inner .right::before {
+        top: 20%;
+    }
+
+    .sign-up {
+        margin-top: -120px;
+    }
+
+    .sign-inner input {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+
+    select {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+
+    .sign-inner .input button {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+
+
+}
+
+@media only screen and (max-width:1035px) {
+    .logo img {
+        width: 120px;
+        height: 50px;
+    }
+
+    .menu ul li a {
+        font-size: 13px;
+    }
+
+    .header-inner .button li a {
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+
+    .banner-inner .right::before {
+        top: 23%;
+        height: 66px;
+        width: 201px;
+    }
+
+    .banner-inner .right img {
+        height: 555px;
+        width: 455px;
+    }
+
+    .banner-inner .left h1 {
+        font-size: 44px;
+    }
+
+    .banner-inner .left p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .menu ul li a {
+        font-size: 15px;
+    }
+
+    .sign-up {
+        margin-top: -117px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .banner-inner .right img {
+        height: 535px;
+        width: 430px;
+    }
+
+    .sign-inner p {
+        font-size: 17px;
+    }
+
+    .text h2 {
+        font-size: 28px;
+    }
+
+    .about-inner {
+        flex-direction: column;
+        gap: 0;
+        padding-bottom: 0px;
+    }
+
+    .about-inner .left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-inner .right {
+        width: 90%;
+    }
+
+    .about-inner .right h3 {
+        font-size: 23px;
+    }
+
+    .about-inner .right p {
+        font-size: 17px;
+    }
+
+    .about-us::before {
+        width: 100px;
+        height: 95px;
+    }
+
+    .why-inner {
+        gap: 0px;
+        flex-direction: column;
+        padding: 50px 50px 0px 50px;
+    }
+
+    .why-inner .right img {
+        width: 430px;
+        padding-top: 20px;
+    }
+
+    .why-inner .left p {
+        font-size: 17px;
+    }
+
+    .customer-support {
+        padding: 0px 0 30px 0;
+        justify-content: center;
+        gap: 70px;
+    }
+
+    .why-inner .left .customer-supp h4 {
+        font-size: 18px;
+    }
+
+    .why-inner .left .customer-supp p {
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .ques-inner {
+        flex-direction: column;
+    }
+
+    .ques-inner .left {
+        width: 80%;
+    }
+
+    .box h5 {
+        width: 40px;
+        height: 40px;
+    }
+
+    .box p {
+        font-size: 17px;
+    }
+
+    .ques-inner .right {
+        margin-left: 0;
+        padding-top: 40px;
+    }
+
+    .ques-inner .right .content-box .text {
+        padding: 25px 20px 55px 39px;
+    }
+
+    .ques-inner .right .content-box h4 {
+        font-size: 17px;
+    }
+
+    .ques-inner .right .content-box p {
+        font-size: 15px;
+    }
+
+    .logoTxt a {
+        width: 100%;
+        height: 70px;
+    }
+
+    .logoTxt img {
+        width: 120px;
+        height: 50px;
+    }
+
+    .company h3 {
+        font-size: 18px;
+    }
+
+    .company ul li a {
+        font-size: 14px;
+    }
+
+    .company ul p {
+        font-size: 14px;
+    }
+
+    .company ul li a i {
+        font-size: 21px;
+    }
+}
+
+@media only screen and (max-width:965px) {
+    .banner-inner .left h1 {
+        font-size: 42px;
+        line-height: 45px;
+    }
+}
+
+@media only screen and (max-width:916px) {
+    .banner-inner {
+        flex-direction: column;
+    }
+
+    .banner-inner .right::before {
+        display: none;
+    }
+
+    .banner-inner .left {
+        width: 90%;
+        box-sizing: border-box;
+        padding-top: 75px;
+    }
+
+    .banner-inner .left h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+
+    .banner-inner .left h1 {
+        font-size: 46px;
+        line-height: 55px;
+        padding-bottom: 20px;
+    }
+
+    .banner-inner .left p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .banner-inner .right {
+        width: 90%;
+        text-align: center;
+    }
+
+    .banner-inner .right img {
+        height: 545px;
+        width: 490px;
+        padding-top: 50px;
+    }
+
+    .about-inner .right h4 {
+        font-size: 22px;
+    }
+
+    .text h2 {
+        font-size: 35px;
+    }
+
+    .why-inner .left h4 {
+        font-size: 22px;
+    }
+
+    .ques-inner .left h4 {
+        font-size: 22px;
+    }
+
+    .footer-inner {
+        padding: 41px 0 5px 0;
+    }
+
+    .logoTxt {
+        width: 100%;
+    }
+
+    .logoTxt img {
+        width: 180px;
+        height: 70px;
+    }
+
+    .logoTxt p {
+        font-size: 22px;
+    }
+
+    .footer-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .company h3 {
+        font-size: 28px;
+    }
+
+    .company ul li {
+        margin-right: 30px;
+        padding-bottom: 30px;
+    }
+
+    .company ul li:last-of-type {
+        margin-right: 0;
+    }
+
+    .company ul li a {
+        font-size: 22px;
+    }
+
+    .company ul p {
+        font-size: 22px;
+        margin-right: 35px;
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width:850px) {
+    .logo img {
+        width: 100px;
+        height: 35px;
+    }
+
+    .menu #list {
+        position: fixed;
+        top: 0;
+        background: var(--orange-color);
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 65px;
+        z-index: 123456;
+        left: -100%;
+        gap: 0px;
+        transition: 0.8s all;
+    }
+
+    #cross {
+        display: block;
+    }
+
+    #menu-bar {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu #list li {
+        list-style: none;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid white;
+        padding: 10px;
+        transition: 0.5s all;
+    }
+
+
+
+    .menu #list li a {
+        font-size: 16px;
+        width: 100%;
+        color: white;
+        padding: 0px;
+        transition: 0.5s all;
+    }
+
+    .menu #list li:hover {
+        background: white;
+    }
+
+    .menu #list li:hover a {
+        color: #FCB040;
+    }
+
+    .menu #list span {
+        width: 100%;
+        text-align: right;
+        padding-right: 0;
+        top: 0;
+        position: absolute;
+        cursor: pointer;
+        transition: 0.8s all;
+    }
+
+    .menu #list span i {
+        color: black;
+        background: white;
+        padding: 10px;
+
+    }
+
+    .banner-inner .left h3 {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+
+    .banner-inner .left h1 {
+        font-size: 37px;
+        line-height: 40px;
+        padding-bottom: 12px;
+    }
+
+    .banner-inner .left p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .banner-inner .right img {
+        height: 404px;
+        width: 380px;
+        padding-top: 20px;
+    }
+
+    .sign-inner {
+        padding: 10px 15px;
+    }
+
+    .sign-up {
+        margin-top: -95px;
+    }
+
+    .sign-inner p {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
+    .sign-inner input {
+        padding: 6px 15px;
+        font-size: 12px;
+    }
+
+    select {
+        padding: 6px 15px;
+        font-size: 12px;
+    }
+
+    .sign-inner .input button {
+        padding: 6px 15px;
+        font-size: 12px;
+    }
+
+    .about-inner .left img {
+        width: 380px;
+    }
+
+    .about-inner .right h4 {
+        font-size: 18px;
+    }
+
+    .text h2 {
+        font-size: 30px;
+    }
+
+    .about-inner .right p {
+        font-size: 14px;
+    }
+
+    .about-inner .right h3 {
+        font-size: 20px;
+    }
+
+    .why-inner .left h4 {
+        font-size: 18px;
+    }
+
+    .why-inner .left p {
+        font-size: 14px;
+    }
+
+    .why-inner .left .customer-supp h4 {
+        font-size: 15px;
+    }
+
+    .why-inner .left .customer-supp p {
+        padding: 0;
+        font-size: 13px;
+    }
+
+    .why-inner .right img {
+        width: 380px;
+        padding-top: 10px;
+    }
+
+    .ques-inner .left h4 {
+        font-size: 18px;
+    }
+
+    .box p {
+        font-size: 15px;
+    }
+
+    .ques-inner .right .content-box h4 {
+        font-size: 15px;
+    }
+
+    .ques-inner .right .content-box p {
+        font-size: 14px;
+    }
+
+    .logoTxt a {
+        width: 100%;
+        height: 43px;
+    }
+
+    .logoTxt img {
+        width: 100px;
+        height: 40px;
+    }
+
+    .logoTxt p {
+        font-size: 14px;
+    }
+
+    .company h3 {
+        font-size: 20px;
+    }
+
+    .company ul li a {
+        font-size: 15px;
+    }
+
+    .company ul p {
+        font-size: 14px;
+        margin-right: 35px;
+    }
+
+    .copyright {
+        padding: 10px 0;
+    }
+
+    .footer::after {
+        width: 50px;
+        height: 70px;
+    }
+
+    .copyright-inner p {
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .sign-inner .input {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sign-inner input {
+        padding: 6px 15px;
+        font-size: 12px;
+        width: 32%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .sign-inner .input button {
+        padding: 5px 15px;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .box h5 {
+        width: 35px;
+        height: 30px;
+    }
+
+    .logoTxt p {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
+    .company h3 {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .company ul li {
+        margin-right: 30px;
+        padding-bottom: 15px;
+    }
+
+    .company ul p {
+        padding-bottom: 10px;
+    }
+
+    .ques-inner .left {
+        width: 95%;
+    }
+
+    .ques-inner .right {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 695px) {
+    .banner-inner .left {
+        width: 100%;
+        padding-top: 40px;
+        padding-left: 15px;
+    }
+
+    .banner-inner .left h3 {
+        font-size: 15px;
+    }
+
+    .banner-inner .left h1 {
+        font-size: 33px;
+    }
+
+    .banner-inner .left p {
+        font-size: 12px;
+    }
+
+    .banner-inner .right img {
+        height: 330px;
+        width: 300px;
+    }
+
+    .sign-inner input {
+        width: 45%;
+        margin-bottom: 10px;
+    }
+
+    .sign-inner input:last-of-type {
+        margin-right: 0px;
+    }
+
+    .select_box {
+        width: 45%;
+    }
+
+    .btn {
+        width: 44.9%;
+    }
+
+    .sign-inner .input button {
+        padding: 5px 14px;
+        height: 38px;
+        margin-top: 0;
+    }
+
+    .about-inner .right p {
+        font-size: 12px;
+    }
+
+    .why-inner .left p {
+        font-size: 12px;
+    }
+
+    .why-inner .left .customer-supp h4 {
+        font-size: 13px;
+    }
+
+    .why-inner .left .customer-supp p {
+        font-size: 12px;
+    }
+
+    .main-box {
+        margin-top: 25px;
+    }
+
+    .box p {
+        font-size: 13px;
+    }
+
+    .box h5 {
+        width: 35px;
+        height: 35px;
+    }
+
+    .box p {
+        font-size: 13px;
+    }
+
+    .logoTxt p {
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+
+    .ques-inner .right .content-box p {
+        font-size: 12px;
+    }
+
+    .company ul li a {
+        font-size: 13px;
+    }
+
+    .company ul p {
+        font-size: 13px;
+    }
+
+}
+
+@media only screen and (max-width:630px) {
+    .header-inner .button li a {
+        padding: 3px 10px;
+        font-size: 12px;
+    }
+
+    .header-inner .button li:last-of-type a {
+        padding: 3px 10px;
+        font-size: 12px;
+    }
+
+    .about-inner .left img {
+        width: 300px;
+    }
+
+    .why-inner .right img {
+        width: 300px;
+        padding-top: 10px;
+    }
+
+    .box h5 {
+        width: 35px;
+        height: 30px;
+    }
+
+    .copyright {
+        padding: 2px 0;
+    }
+
+    .copyright-inner {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .banner-inner .left h1 {
+        font-size: 30px;
+    }
+
+    .arrow {
+        width: 30px;
+        height: 30px;
+    }
+
+    .text h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .about-inner .right h4 {
+        font-size: 14px;
+    }
+
+    .why-inner {
+        padding: 10px 10px 0px 10px;
+    }
+
+    .why-inner .left h4 {
+        font-size: 14px;
+    }
+
+    .ques-inner .left {
+        width: 95%;
+    }
+
+    .ques-inner .left h4 {
+        font-size: 14px;
+    }
+
+    .ques-inner .right {
+        width: 95%;
+    }
+
+    .about-inner .right h3 {
+        font-size: 15px;
+    }
+
+    .about-inner .right .who-inner p {
+        padding-left: 30px;
+        margin-left: 13.3px;
+    }
+
+    .box h5 {
+        width: 35px;
+        height: 25px;
+        font-size: 13px;
+    }
+
+    .ques-inner {
+        padding: 0 0 50px 0;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .header-inner .button li {
+        display: none;
+    }
+
+    .menu ul .button {
+        display: block;
+    }
+
+    .menu ul .button a {
+        text-decoration: none;
+        color: var(--orange-color);
+        border: 1px solid white;
+        font-size: 12px;
+        padding: 5px 15px;
+        background: white;
+        border-radius: 50px;
+        position: absolute;
+        top: 2.8%;
+        right: 22%;
+    }
+
+    .menu ul .button a:last-of-type {
+        top: 2.8%;
+        right: 2%;
+    }
+
+    .banner-inner .right img {
+        height: 270px;
+        width: 250px;
+    }
+
+    .sign-up {
+        margin-top: -63px;
+    }
+
+    .sign-inner p {
+        font-size: 13px;
+    }
+
+    .sign-inner input {
+        padding: 3px 15px;
+    }
+
+    select {
+        padding: 3px 15px;
+    }
+
+    .sign-inner .input button {
+        padding: 3px 14px;
+        height: 32px;
+    }
+
+    .about-us::before {
+        width: 50px;
+        height: 50px;
+    }
+
+    .about-us::after {
+        width: 50px;
+        height: 50px;
+    }
+
+    .about-inner .left img {
+        width: 250px;
+    }
+
+    .about-inner .right {
+        width: 100%;
+        padding-left: 15px;
+    }
+
+    .about-inner .right h3 {
+        font-size: 13px;
+    }
+
+    .arrow {
+        width: 25px;
+        height: 25px;
+    }
+
+    .arrow i {
+        font-size: 13px;
+        height: 8px;
+    }
+
+    .about-inner .right .who-inner p {
+        padding-left: 30px;
+        margin-left: 11.3px;
+    }
+
+    .customer-support {
+        padding: 0px 0 20px 0;
+        gap: 15px;
+        justify-content: space-between;
+    }
+
+    .why-us::before {
+        width: 50px;
+        height: 50px;
+    }
+
+    .why-inner .right img {
+        width: 250px;
+    }
+
+    .question::before {
+        width: 50px;
+        height: 50px;
+    }
+
+    .box {
+        gap: 8px;
+        padding: 10px 10px;
+    }
+
+    .ques-inner .right .content-box .text {
+        padding: 20px 20px 30px 20px;
+    }
+
+    .ques-inner .right .content-box h4 {
+        font-size: 13px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+
+    .ques-inner .right .content-box p {
+        padding-bottom: 20px;
+        line-height: 17px;
+    }
+
+    .logoTxt p {
+        line-height: 18px;
+    }
+
+    .company h3 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:460px) {
+    .header-inner {
+        padding: 7px 0;
+    }
+
+    .banner-inner .left h3 {
+        font-size: 14px;
+    }
+
+    .banner-inner .left h1 {
+        font-size: 27px;
+    }
+
+    .sign-inner input {
+        padding: 3px 15px;
+        margin-right: 5px;
+        width: 49%;
+    }
+
+    .select_box {
+        width: 49%;
+        margin-right: 5px;
+    }
+
+    .btn {
+        width: 49%;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .menu #list span i {
+        padding: 7px;
+    }
+
+    .menu ul .button a {
+        right: 24%;
+    }
+
+    .banner-inner .left h3 {
+        font-size: 13px;
+        padding-bottom: 3px;
+        line-height: 10px;
+    }
+
+    .banner-inner .left h1 {
+        font-size: 20px;
+        padding-bottom: 5px;
+        letter-spacing: 1px;
+        -webkit-text-stroke-width: 0.5px;
+        line-height: 25px;
+    }
+
+    .banner-inner .left p {
+        line-height: 16px;
+    }
+
+    .sign-inner input {
+        padding: 3px 8px;
+    }
+
+    select {
+        padding: 3px 8px;
+    }
+
+    .sign-inner {
+        padding: 10px 10px;
+    }
+
+    .about-inner .right .who-inner p {
+        padding: 5px 0px 7px 30px;
+    }
+
+    .footer-inner {
+        padding: 41px 0 20px 0;
+    }
+
+    .company ul li {
+        margin-right: 10px;
+        padding-bottom: 5px;
+    }
+
+    .company ul p {
+        font-size: 12px;
+        margin-right: 3px;
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .menu ul .button a {
+        right: 26%;
+    }
+
+    .banner-inner .left {
+        padding-left: 0;
+    }
+
+    .text h2 {
+        font-size: 20px;
+    }
+
+    .about-inner .right {
+        padding-left: 0;
+    }
+
+    .why-inner {
+        padding: 10px 10px 0px 0px;
+    }
+
+    .box h5 {
+        width: 35px;
+        height: 22px;
+        font-size: 12px;
+    }
+
+    .fa-chevron-right::before {
+        font-size: 13px;
+    }
+
+    .company h3 {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .menu ul .button a {
+        right: 28%;
+    }
+
+    .banner-inner .left h1 {
+        font-size: 17px;
+    }
+
+    .sign-inner {
+        padding: 10px 8px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .sign-inner {
+        padding: 5px 5px;
+    }
+
+    .sign-inner p {
+        font-size: 12px;
+    }
+
+    .why-inner .left .customer-supp h4 {
+        font-size: 12px;
+    }
+
+    .box p {
+        font-size: 12px;
+    }
+}

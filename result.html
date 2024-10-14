@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500&family=Roboto:ital,wght@0,100;0,300;1,100;1,700&display=swap"
+        rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500&family=Roboto:ital,wght@0,100;0,300;1,100;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="header">
+            <div class="container">
+                <div class="header-inner">
+                    <div class="logo">
+                        <a href=""><img src="img/logo.png" alt="logo"></a>
+                    </div>
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Search Job</a></li>
+                            <li><a href="">Post Job</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                    <ul class="button">
+                        <li><a href="">Log in</a></li>
+                        <li><a href="">Sign Up</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="banner-res">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d215397.94013872585!2d74.37758348322141!3d32.48358120197729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391eea5674db6cfd%3A0xa8d03983946d4744!2sSialkot%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1697711779578!5m2!1sen!2s"
+                width="100%" height="445" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="jobs">
+            <div class="container">
+                <div class="job-inner">
+                    <div class="left">
+                        <form action="">
+                            <h3>Location</h3>
+                            <div class="location-box">
+                                <input type="text" placeholder="Search by a location">
+                                <img src="img/ion_location .png" alt="">
+                            </div>
+
+                            <h3>Category</h3>
+                            <div class="select_box">
+                                <select name="links" onchange="window.location.href=this.value;">
+                                    <option value="">All Categories</option>
+                                    <option value="https://www.youtube.com/">Youtube</option>
+                                    <option value="">Category-2</option>
+                                    <option value="">Category-3</option>
+                                    <option value="">Category-4</option>
+                                </select>
+                            </div>
+
+                            <h3>State or Province</h3>
+                            <div class="select_box">
+                                <select name="links" onchange="window.location.href=this.value;">
+                                    <option value="">Select state or province</option>
+                                    <option value="https://www.youtube.com/">Youtube</option>
+                                    <option value="">Category-2</option>
+                                    <option value="">Category-3</option>
+                                    <option value="">Category-4</option>
+                                </select>
+                            </div>
+
+                            <h3>Country</h3>
+                            <div class="select_box">
+                                <select name="links" onchange="window.location.href=this.value;">
+                                    <option value="">Select country</option>
+                                    <option value="https://www.youtube.com/">Youtube</option>
+                                    <option value="">Category-2</option>
+                                    <option value="">Category-3</option>
+                                    <option value="">Category-4</option>
+                                </select>
+                            </div>
+                            <span>
+                                <h3>Type of employment </h3>
+                            </span>
+                            <input type="checkbox"><label for="">Full Time</label><br><br>
+                            <input type="checkbox"><label for="">Relief</label><br><br>
+                            <input type="checkbox"><label for="">Part Time</label>
+
+                        </form>
+                    </div>
+
+                    <div class="right">
+                        <div class="showing-job">
+                            <div class="show-job">
+                                <h4>Showing 1-5 of 28 Jobs</h4>
+                            </div>
+                            <div class="sort">
+                                <h4>Sort by :</h4>
+                                <div class="select_box">
+                                    <select name="links" onchange="window.location.href=this.value;">
+                                        <option value="">Most Recent</option>
+                                        <option value="https://www.youtube.com/">Youtube</option>
+                                        <option value="">Category-2</option>
+                                        <option value="">Category-3</option>
+                                        <option value="">Category-4</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 01 -->
+                        <div id="sort-right-1" class="show-tab">
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 02 -->
+
+
+                        <div id="sort-right-2" class="show-tab">
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+
+                            <!-- <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>-->
+                        </div>
+
+
+                        <!-- 03 -->
+
+
+                        <div id="sort-right-3" class="show-tab">
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 04 -->
+
+                        <div id="sort-right-4" class="show-tab">
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+
+                            <!-- <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>-->
+                        </div>
+
+                        <!-- 05 -->
+
+                        <div id="sort-right-5" class="show-tab">
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+
+                            <div class="sort-box">
+                                <div class="image">
+                                    <img src="img/dog.png" alt="">
+                                </div>
+                                <div class="para">
+                                    <h3>Senior Web Designer <span> / 1 days ago</span></h3>
+                                    <p> <img src="img/color-location.png" alt=""> Blvd Los Angeles, CA 90026, USA</p>
+                                </div>
+                                <div class="button">
+                                    <li><a href="">Full time</a></li>
+                                    <li><a href="">Apply</a></li>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="btns">
+                            <button class="prev-btn">Prev</button>
+                            <button class="btn" data-btn="sort-right-1">1</button>
+                            <button class="btn" data-btn="sort-right-2">2</button>
+                            <button class="btn" data-btn="sort-right-3">3</button>
+                            <button class="btn" data-btn="sort-right-4">4</button>
+                            <button class="btn" data-btn="sort-right-5">5</button>
+                            <button class="nxt-btn">Next</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="logoTxt">
+                    <a href=""><img class="logo" src="img/footer-logo.png" alt=""></a>
+                    <p>Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
+                        interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per
+                        conubia nostra, per inceptos himenaeos. Curabitur tempus urna.</p>
+                </div>
+
+                <div class="footer-flex">
+                    <div class="company">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Search Jobs</a></li>
+                            <li><a href="#">Post Job</a></li>
+                        </ul>
+                    </div>
+                    <div class="company">
+                        <h3>Our Address</h3>
+                        <ul>
+                            <p>Seminyak No.19, 80361, Badung, Bali.</p>
+                            <p>(316) 212-3456</p>
+                        </ul>
+                    </div>
+                    <div class="company">
+                        <h3>Our Links</h3>
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="copyright-inner">
+                    <p>©2023 All Rights Reserved. Corporation</p>
+                    <p>Terms of Use | Privacy Notice | System Usage Policy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- wrapper -->
+    </div>
+
+    <script src="js/result.js"></script>
+
+</body>
+
+</html>
